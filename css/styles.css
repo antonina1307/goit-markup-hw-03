@@ -14,7 +14,7 @@
     width: 1200px;    
     margin: 0px auto;
     padding: 0px 15px;
-    outline: 2px solid red; 
+    /* outline: 2px solid red;  */
 }
 p,h1,h2,h3,h4,h5,h6 {
   margin: 0px;
