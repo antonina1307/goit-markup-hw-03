@@ -1,9 +1,8 @@
-.content-body {
+content-body {
   font-size: 14px;
   letter-spacing: 0.03em;
-  font-family: "Roboto", sans-serif;
-  color:#ffffff;
-  background: #F5F5F5;
+  font-family: "Roboto", sans-serif;  
+  background: white;
 }
 :root{
   --primary-text-color: #212121;
@@ -26,7 +25,7 @@ ul,ol {
 button {
   cursor: pointer;
 }
-.section .container{ 
+.section{ 
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -115,8 +114,8 @@ a.link-page-mail:hover {
   text-align: center;
   
 }
-.main-section .container{
-  padding: 200px 200px;
+.main-section{
+  padding: 200px 0;
 }
 .main-title { 
   font-weight: 900;
@@ -144,6 +143,7 @@ a.link-page-mail:hover {
   font-family: inherit;
   width: 200px;
   height: 50px;
+  border: none;
 }
 
 .visually-hidden {
@@ -202,14 +202,18 @@ display: flex;
   display: flex;
   justify-content:center ;
 }
-.work-section .container{
+.work-section{
   padding-top: 0;
+}
+.work-img{
+  display: block;
+  max-width: 100%;
 }
 .work-item:not(:last-child){
   margin-right: 30px;
 }
 .section-about-team {
-background: #F5F4FA
+background: #F5F4FA;
 }
 .team-title {
   font-weight: 700 ;
@@ -230,6 +234,7 @@ background: #F5F4FA
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
+    background-color: white;
 }
 .team-list:not(:last-child) {
   margin-right: 30px;
@@ -263,7 +268,7 @@ font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color:white
 }
 .link-bottom-item:not(:last-child){
 margin-bottom: 15px;
@@ -274,7 +279,7 @@ margin-bottom: 15px;
 .footer-section a{
   cursor: default;
 }
-.footer-section .container{
+.footer-section{
   padding-top: 60px;
   padding-bottom: 39px;
 }   
@@ -295,21 +300,22 @@ border-bottom: 1px solid #ECECEC;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-
- 
-
 }
-.page-styles {  
+.page-styles { 
+  list-style: none; 
 }
 .page-wrap{
  flex-basis: calc(100%/3 - 30px);
-  text-align: center;
   margin-top: 30px;
   margin-left: 30px;
-  padding-bottom: 20px;
-border-bottom: 1px solid #ECECEC;
-}
 
+}
+.titles{
+  padding: 20px 24px;
+  border-bottom: 1px solid #ECECEC;
+  border-left: 1px solid #ECECEC;
+  border-right: 1px solid #ECECEC;
+}
 .page-wrap:nth-child(3n){
   margin-right: 0;
 }
@@ -331,7 +337,7 @@ border-bottom: 1px solid #ECECEC;
   margin-bottom: 50px;
 }
 .list-btn-item:not(:last-child){
-  margin-right: 8px;
+  margin-right: 9px;
 }
 
 .button-filtr:hover,
@@ -344,15 +350,14 @@ border-bottom: 1px solid #ECECEC;
   color: #ffffff;
   background-color: #2196f3;
 }
-.img-block{
-  margin-bottom: 20px;
-}
+
 .title-block {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: #212121;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .text-block {
