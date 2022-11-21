@@ -259,6 +259,10 @@ background: #F5F4FA;
 }
 .link-bottom{
   list-style: none;
+  
+  
+}
+.address-ftr{
   margin-top: 28px;
 }
 .link-bottom a {
@@ -268,7 +272,8 @@ font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color:white
+  color:white;
+  
 }
 .link-bottom-item:not(:last-child){
 margin-bottom: 15px;
